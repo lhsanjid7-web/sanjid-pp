@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="SANJID — premium fashion, accessories, phones, and lifestyle collections.">
+  <title>SANJID | Luxury Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <section id="intro" class="intro-screen hidden">
+    <div class="intro-top"><a class="brand-mark owner-link" href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener" aria-label="SANJID on Facebook">SANJID<span>✦</span></a><span class="demo-tag">THE SANJID COLLECTION</span></div>
+    <div class="intro-content glass-panel">
+      <div class="eyebrow"><span class="eyebrow-line"></span> THE ART OF EVERYDAY LUXURY</div>
+      <h1>Meet <em>SANJID.</em><br>Made to stand out.</h1>
+      <p>Explore hundreds of curated demo listings across fashion, accessories, phones, home tech, and everyday essentials. Tap a category, compare prices, then order directly through WhatsApp.</p>
+      <div class="intro-stats"><div><strong>554+</strong><span>Sample listings</span></div><div><strong>13</strong><span>Categories</span></div><div><strong>24/7</strong><span>Browse anytime</span></div></div>
+      <div class="auto-enter-status" role="status" aria-live="polite"><span class="loading-ring"></span><span><b>Preparing your experience</b><small>Your store is opening automatically…</small></span></div>
+      <small class="demo-note">Demo entrance · opening automatically · no account or password is collected.</small>
+    </div>
+    <div class="intro-footer"><a href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener">SANJID · FACEBOOK</a><span>DESIGNED FOR THE DETAILS</span></div>
+  </section>
+
+  <main id="store">
+    <header class="site-header">
+      <a href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener" class="wordmark owner-link" aria-label="SANJID on Facebook"><span class="brand-mark">SANJID<span>✦</span></span><span>OWNER <b>· FACEBOOK</b></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#collection">All products</a><a href="#collection" id="menu-help">Help on WhatsApp ↗</a><a href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener">SANJID Facebook ↗</a></nav>
+      <div class="header-actions"><button class="icon-button" id="wishlist-shortcut" aria-label="View wishlist">♡ <span id="wish-count">0</span></button><button class="button button-outline cart-open">Bag <span id="cart-count">0</span></button><button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button></div>
+    </header>
+
+    <section class="hero hidden">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE NEW EDIT · 2026</div>
+        <h1>Style that speaks.<br><em>By SANJID.</em></h1>
+        <p>Shop bags, watches, sunglasses, wallets, belts, fashion, phones, home tech, and more—with category filters, price sorting, colors, sizes, and direct WhatsApp ordering.</p>
+        <div class="hero-actions"><a href="#collection" class="button button-primary">Shop the collection <span>↘</span></a><a href="#about" class="text-link">Discover our standard ↗</a></div>
+        <div class="hero-proof"><span class="proof-stars">★★★★★</span><span>Thoughtfully chosen. Personally delivered.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-wrap"><img src="assets/products/p001.webp" alt="Black structured handbag photographed from a three-quarter angle"></div>
+        <div class="floating-note"><span class="note-dot"></span><div><b>THE SIGNATURE EDIT</b><small>Quiet confidence, every day.</small></div></div>
+        <div class="hero-index">01 <span>/</span> 04</div>
+      </div>
+    </section>
+
+    <section class="trust-strip hidden">
+      <div><span>✧</span> Carefully selected quality</div><div><span>◈</span> Personal WhatsApp ordering</div><div><span>↗</span> A considered shopping experience</div>
+    </section>
+
+    <section id="collection" class="collection-section section-wrap">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> SANJID COLLECTION</div><h2>Find your style<span class="silver-dot">.</span></h2></div></div>
+      <div class="shop-tools">
+        <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Search products..." aria-label="Search products"><kbd>⌘ K</kbd></label>
+        <select id="sort-select" aria-label="Sort products"><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="name">Name: A–Z</option></select>
+      </div>
+      <div class="category-row" id="category-row" aria-label="Product categories"></div>
+      <div class="filter-row"><span id="result-count">Explore the collection</span><label class="stock-filter"><input type="checkbox" id="in-stock-only"> In stock only</label></div>
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty-state" class="empty-state hidden"><span>⌕</span><h3>No pieces found</h3><p>Try another search or category.</p><button class="button button-outline" id="clear-filters">Clear filters</button></div>
+    </section>
+
+    <section id="about" class="standard-section section-wrap hidden">
+      <div class="standard-art"><img src="assets/products/p033.webp" alt="White formal shirt photographed in premium studio lighting"></div>
+      <div class="standard-copy"><div class="eyebrow"><span class="eyebrow-line"></span> OUR STANDARD</div><h2>Good design.<br><em>Better details.</em></h2><p>We believe premium is more than a look. It's the small details, clear product information, and thoughtful service that make every choice feel right.</p><div class="standard-points"><div><span>01</span><div><b>Curated with care</b><small>Every item has a reason to be here.</small></div></div><div><span>02</span><div><b>Clear before you choose</b><small>See colors, quality notes, price, and availability.</small></div></div><div><span>03</span><div><b>Personal ordering</b><small>Confirm your selection directly with us on WhatsApp.</small></div></div></div></div>
+    </section>
+
+    <section id="reviews" class="reviews-section section-wrap hidden"><div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> KIND WORDS</div><h2>Good things, shared<span class="silver-dot">.</span></h2></div><span class="review-disclaimer">Sample review cards — replace with genuine customer feedback.</span></div><div class="review-grid"><article class="review-card"><div class="review-stars">★★★★★</div><p>“Beautiful presentation and such a smooth ordering experience.”</p><span>— Sample customer</span></article><article class="review-card"><div class="review-stars">★★★★★</div><p>“I loved being able to check the color and details before ordering.”</p><span>— Sample customer</span></article><article class="review-card"><div class="review-stars">★★★★★</div><p>“Simple, polished, and easy to browse on my phone.”</p><span>— Sample customer</span></article></div></section>
+
+    <section class="newsletter section-wrap hidden"><div><div class="eyebrow"><span class="eyebrow-line"></span> STAY IN THE LOOP</div><h2>A little more luxury.</h2><p>Questions about a product? We’re one message away.</p></div><a class="button button-primary" href="https://wa.me/8801628801587?text=Hello%20SANJID%2C%20I%20need%20help%20with%20a%20product." target="_blank" rel="noopener">Help on WhatsApp <span>↗</span></a></section>
+
+    <footer class="site-footer"><a href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener" class="wordmark owner-link"><span class="brand-mark">SANJID<span>✦</span></span><span>STORE OWNER <b>· FACEBOOK</b></span></a><span>© <span id="year"></span> SANJID. Made for the details.</span><div><a href="#collection">Shop</a><a href="#about">Our standard</a><a class="facebook-footer" href="https://www.facebook.com/share/1CDFsn5Gkz/" target="_blank" rel="noopener" aria-label="Open SANJID Facebook"><span class="facebook-mark">f</span><span>SANZID · FACEBOOK ID</span></a><button id="admin-open" class="footer-admin">Edit products</button></div></footer>
+  </main>
+
+  <div id="cart-drawer" class="drawer-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="cart-title"><aside class="drawer"><div class="drawer-header"><div><div class="eyebrow">YOUR SELECTION</div><h2 id="cart-title">Shopping bag</h2></div><button class="close-button" data-close="cart" aria-label="Close bag">×</button></div><div id="cart-items" class="cart-items"></div><div class="cart-footer"><div class="cart-total"><span>Estimated total</span><strong id="cart-total">৳0</strong></div><p>Final availability and delivery details are confirmed in WhatsApp.</p><button id="checkout-whatsapp" class="button button-primary button-full">Order via WhatsApp ↗</button></div></aside></div>
+
+  <div id="wishlist-drawer" class="drawer-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="wishlist-title"><aside class="drawer"><div class="drawer-header"><div><div class="eyebrow">SAVED FOR LATER</div><h2 id="wishlist-title">Your wishlist</h2></div><button class="close-button" data-close="wishlist" aria-label="Close wishlist">×</button></div><div id="wishlist-items" class="cart-items"></div></aside></div>
+
+  <div id="product-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-name"><div class="product-modal"><button class="close-button modal-close" data-close="product" aria-label="Close product details">×</button><div id="modal-content"></div></div></div>
+
+  <div id="admin-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="admin-title"><div class="admin-modal"><button class="close-button modal-close" data-close="admin" aria-label="Close editor">×</button><div class="eyebrow">STORE MANAGEMENT · DEMO</div><h2 id="admin-title">Product editor</h2><p class="admin-help">Edit sample items in this browser. Changes are saved locally on this device. This is not a secure multi-user admin system.</p><form id="product-form"><input type="hidden" id="edit-id"><div class="form-grid"><label>Product name<input id="edit-name" required maxlength="80"></label><label>Category<input id="edit-category" required maxlength="40"></label><label>Price (BDT)<input id="edit-price" type="number" min="0" required></label><label>Stock quantity<input id="edit-stock" type="number" min="0" required></label><label>Colors (comma separated)<input id="edit-colors" required></label><label>Image URL<input id="edit-image" type="url" required></label><label class="form-wide">Quality & description<textarea id="edit-description" rows="3" required></textarea></label></div><div class="admin-buttons"><button type="button" id="new-product" class="button button-outline">New product</button><button type="submit" class="button button-primary">Save product</button></div></form><div class="admin-product-list"><h3>Current products</h3><div id="admin-list"></div></div></div></div>
+
+  <div id="photo-viewer" class="photo-viewer hidden" role="dialog" aria-modal="true" aria-label="Product photo"><button class="photo-viewer-close" id="photo-viewer-close" aria-label="Close photo">×</button><img id="photo-viewer-image" src="" alt="Selected product photo"><div id="photo-viewer-caption" class="photo-viewer-caption"></div></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
